@@ -110,3 +110,6 @@ grafana/dashboard-export.json
 <img width="1919" height="827" alt="image" src="https://github.com/user-attachments/assets/79ded2e4-9ecf-4ea8-a516-8874c291a475" />
 
 
+<img width="1893" height="513" alt="image" src="https://github.com/user-attachments/assets/07895848-74f6-4036-bc2a-95127e71f67f" />
+
+
