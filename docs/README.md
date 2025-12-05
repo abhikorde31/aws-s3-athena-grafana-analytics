@@ -103,6 +103,9 @@ ORDER BY period ASC;
 Automate crawler using Lambda
 Add CI/CD for Terraform deployment
 Add multiple datasets inside the same Athena database
+<img width="1400" height="580" alt="1_NMhW3kKAVsN-EaEF57RYww" src="https://github.com/user-attachments/assets/51c0c8bf-64d8-4ffd-bf7c-9d41f97106a9" />
+<img width="1487" height="672" alt="image001-4" src="https://github.com/user-attachments/assets/a5ef992a-4637-425c-a7a5-c7ad6e27c69d" />
+![AWS-Config-data-exploration-and-visualization-with-Amazon-Managed-Grafana](https://github.com/user-attachments/assets/f489e2cb-313a-4da4-bac7-f79f798906bb)
 
 👨‍💻 Author
 Abhishek Korde
