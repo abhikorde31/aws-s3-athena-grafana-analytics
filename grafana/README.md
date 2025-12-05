@@ -47,6 +47,7 @@ Below are example SQL queries you used in Grafana to generate charts.
 🔹 Panel 1 — Total by Age Group(bar format)
 
 Dataset: s3_death_by_sex_age
+
 SELECT
   age AS metric,
   SUM(try_cast(count AS BIGINT)) AS value
@@ -68,6 +69,7 @@ ORDER BY
 
 
 Panel 2 — Time Series (Deaths by Age per Year)
+
 SELECT
   try(date_parse(CAST(period AS VARCHAR), '%Y')) AS time,
   age AS metric,
@@ -80,6 +82,7 @@ GROUP BY period, age
 ORDER BY time ASC;
 
 panel 3 - Annual death counts by gender(Time Series)
+
 SELECT
   -- Interpret 4-digit year as Jan-01 timestamp
   TRY(DATE_PARSE(CAST(period AS VARCHAR), '%Y')) AS time,
